@@ -1,0 +1,35 @@
+.results > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.94);
+}
+
+.load {
+  padding-top: 20px;
+  display: flexbox;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0%;
+  background-color: rgba(0, 0, 0, 0.94);
+  list-style: none;
+  text-size-adjust: bold;
+  padding-bottom: 30px;
+  font-size: large;
+}
+
+.load li {
+  display: flex;
+  padding: 0px;
+  flex-direction: row;
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
+.load li a {
+  display: flex;
+  color: whitesmoke;
+  list-style: none;
+  text-decoration: none;
+  width: 100%;
+}
